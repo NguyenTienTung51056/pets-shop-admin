@@ -1,0 +1,52 @@
+.orderList{
+    flex: 4;
+}
+
+.orderListItem{
+    display: flex;
+    align-items: center;
+}
+
+.orderListImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+.orderListEdit{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.orderListDelete{
+    color: red;
+    cursor: pointer;
+}
+
+.orderProduct{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.productListItemLeft{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.productListItemRight{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
